@@ -4,4 +4,4 @@ streamlit
 numpy
 seaborn
 scikit-learn
-altair
+
