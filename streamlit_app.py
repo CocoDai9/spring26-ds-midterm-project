@@ -51,7 +51,7 @@ if page == "Home":
     st.write("")
 
     # ---------- TRIANGLE IMAGE (TOP, NOT IN CARD) ----------
-    st.image("tri.jpg", width=True)
+    st.image("tri.jpg")
     st.caption("The 3 S's of the S-Triangle that guide a college student's life are: Sleep, Studying, and a Social Life")
 
     st.write("")
@@ -108,14 +108,14 @@ elif page == "Dataset Overview":
 
     st.subheader("Data Preview")
     rows = st.slider("Rows to display", 5, 30, 5)
-    st.dataframe(df.head(rows), width=True)
+    st.dataframe(df.head(rows))
 
     st.subheader("Column Names")
     st.write(list(df.columns))
 
     st.subheader("Summary Statistics")
     if st.button("Show Describe Table"):
-        st.dataframe(df.describe(), width=True)
+        st.dataframe(df.describe())
 
     st.markdown("""
     🔗 **Source:**  
