@@ -248,8 +248,6 @@ Previous vs. Final GPA: Shows a very strong positive correlation (0.88). This is
 The heatmap visualizes the strength of relationships between all numerical variables.
 
 It highlights the Previous GPA (0.88) as the dominant factor, followed by Attendance (0.30) and Study Hours (0.23).
-
-Variables such as Sleep Hours (0.00) and Social Hours (-0.00) show no statistically significant impact on Final CGPA.
         """)
 
         st.markdown("""
