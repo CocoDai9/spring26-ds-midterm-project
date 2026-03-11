@@ -239,7 +239,7 @@ Previous vs. Final GPA: Shows a very strong positive correlation (0.88). This is
         st.subheader("Multivariate Correlation Matrix")
         fig4, ax4 = plt.subplots()
         correlation_matrix = df.select_dtypes(include=['number']).corr()
-        sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", ax=ax4)
+        sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".3f", ax=ax4)
         ax4.set_title('Correlation Matrix Heatmap')
         st.pyplot(fig4)
  
